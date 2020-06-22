@@ -1,2 +1,2 @@
-# footballmodels
-Football Machine Learning Models
+# MLFootball
+Machine Learning Models for Football
