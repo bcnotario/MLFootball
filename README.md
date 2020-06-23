@@ -54,8 +54,10 @@ For all WR plays, calculate completion probability, expected yardage, and averag
 ```
 play.summaryWR <- play.resultWR(play.mod)
 ```
+### route.mapA
+Route display of receivers with routes, defenders, and ball by play
 ### play.mapWR
-Print 5 examples of route combination and route results
+Print 5 examples of route combination and route results (using route.mapA)
 ```
 play.mapWR('DHI',play.summaryWR$rplay,5)
 ```
